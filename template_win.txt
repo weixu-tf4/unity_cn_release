@@ -1,0 +1,5 @@
+    Editor: https://download.unitychina.cn/download_unity/$hash/Windows64EditorInstaller/UnitySetup64.exe
+    Android Build Support: https://download.unitychina.cn/download_unity/$hash/TargetSupportInstaller/UnitySetup-Android-Support-for-Editor-$version.exe
+    iOS Build Support: https://download.unitychina.cn/download_unity/$hash/TargetSupportInstaller/UnitySetup-iOS-Support-for-Editor-$version.exe
+    Mac Build Support (Mono): https://download.unitychina.cn/download_unity/$hash/TargetSupportInstaller/UnitySetup-Mac-Mono-Support-for-Editor-$version.exe
+    Windows Build Support (IL2CPP): https://download.unitychina.cn/download_unity/$hash/TargetSupportInstaller/UnitySetup-Windows-IL2CPP-Support-for-Editor-$version.exe
