@@ -37,9 +37,10 @@ def handle_ver_list(ver_list_data):
 
     for ver in ver_list_data:
         date_str = time.strftime('%Y-%m-%d', time.localtime(int(ver['created'])))
+        version_str = f'{ver["major"]}.{ver["minor"]}.{ver["maintenance"]}{ver["chinesePostfix"]}'
         data = {
             'hash': ver['chineseHash'],
-            'version': ver['title']+ver['chinesePostfix'],
+            'version': version_str,
         }
         print(f'version: {ver["title"]} hash: {ver["chineseHash"]} date: {date_str}')
         print('  MacOS: ')
